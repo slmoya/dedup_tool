@@ -33,19 +33,19 @@ This tool was written with the help of ChatGPT ut tested on large datasets of co
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/yourusername/parallel-deduplication-tool.git
-cd parallel-deduplication-tool
+git clone https://github.com/slmoya/dedup_tool
+cd dedup_tool
 ```
 
 ### 2. Make the Script Executable
 
 ```
-chmod +x deduplicate_parallel.sh
+chmod +x dedup.sh
 ```
 
 ### 3. Run the Script
 ```
-./deduplicate_parallel.sh <source_directory> <temp_directory> <num_cores>
+./dedup_tool.sh <source_directory> <temp_directory> <num_cores>
 ```
 - <source_directory>: Path to the directory containing your data.
 - <temp_directory>: Path to the directory where temporary files will be stored.
@@ -53,7 +53,7 @@ chmod +x deduplicate_parallel.sh
 
 ## Example
 ```
-./deduplicate_parallel.sh /path/to/data /path/to/temp_data 8
+./dedup_tool.sh /path/to/data /path/to/temp_data 8
 ```
 
 This example uses 8 CPU cores to deduplicate all files in /path/to/data, storing temporary files in /path/to/temp_data.
