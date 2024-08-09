@@ -43,7 +43,7 @@ chmod +x dedup.sh
 
 ### 3. Run the Script
 ```
-./dedup_tool.sh <source_directory> <temp_directory> <num_cores>
+./dedup.sh <source_directory> <temp_directory> <num_cores>
 ```
 - <source_directory>: Path to the directory containing your data.
 - <temp_directory>: Path to the directory where temporary files will be stored.
@@ -51,7 +51,7 @@ chmod +x dedup.sh
 
 ## Example
 ```
-./dedup_tool.sh /path/to/data /path/to/temp_data 8
+./dedup.sh /path/to/data /path/to/temp_data 8
 ```
 
 This example uses 8 CPU cores to deduplicate all files in /path/to/data, storing temporary files in /path/to/temp_data.
