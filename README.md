@@ -1,8 +1,6 @@
 # Deduplication Tool
 
-This tool efficiently removes duplicate lines from large datasets of `email:password` pairs, leveraging multiple CPU cores for parallel processing. It supports hierarchical directory structures and prevents file naming conflicts during the deduplication process.
-
-This tool was written with the help of ChatGPT ut tested on large datasets of combined email:password combolists.
+This bash script efficiently removes duplicate lines from large datasets of `email:password` pairs, leveraging multiple CPU cores for parallel processing. It supports hierarchical directory structures and prevents file naming conflicts during the deduplication process.
 
 ## Features
 
